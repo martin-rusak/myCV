@@ -1,0 +1,2 @@
+# myCV
+Welcome to my cloud base resume utilizing DevOps methodologies and practices.  This digital resume is deployed on GCP with Terraform and source controlled by GitHub.  The CI/CD pipeline utilizes GitHub Actions to automate the continues deployment.

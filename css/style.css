@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* 
+	CSS Document 
+
+	Created by Martin Rusak
+	E-Mail: martin.rusak@gmail.com
+
+	  
+*/
+body {
+	font-family		:	Arial, Helvetica, sans-serif;
+	font-size		: 	12px;
+	color			: 	#111;
+}
+/* Layout Section */
+#wrapper {
+	width			: 	1080px;
+	margin			: 	0px auto 0px auto;
+}
+#header {
+	width			: 	100%;
+    padding         :   0 0 20px 0;
+}
+#leftHeader {
+	float			: 	left;
+    height          :   360px;
+    width			: 	35%;
+}
+#rightHeader {
+    float			: 	right;
+}
+#main {
+    width			: 	100%;
+    border-top      :   1px dotted #2d2d2d;
+}
+#leftPanel {
+    float			: 	left;
+	width			: 	360px;
+}
+#contactList {
+	margin			:	0 0 0 0;
+	padding			:	0 0 0 0;
+}
+#contactList li {
+	display			:	block;
+    padding			:	0 0 5px 0;
+}
+#skillsets {
+    list-style-type :   square;
+    margin			:	0 0 0 0;
+    padding			:	0 0 0 15px;
+}
+#skillsets li {
+    padding			:	0 0 5px 0;
+}
+#rigthPanel {
+    float			: 	right;
+    width			: 	700px;
+}
+#footer {
+	width			: 	100%;
+    background-color:   #d3d3d3;
+    height          :    50px;
+}
+#footerNotes {
+	padding			:	15px 15px 15px 15px;
+}
+
+
+
+
+
+/* General Style */
+.profileImg {
+	float           :   left;
+    border-radius   :   50%; 
+    border	        :	1px solid #d3d3d3;
+}
+
+.icon {
+    width			: 	25px;
+    height          :   25px;
+    margin			:	0 5px -8px 0;
+}
+
+a,  a:visited,  a:active {
+	color			:	#373737;
+	text-decoration	:	none;
+}
+
+a:hover {
+	color			:	#800000;
+}
+
+h3 {
+	color			:	#800000;
+}
+
+.experience {
+    border-left	    :	1px dotted #2d2d2d;
+    padding         :   0 0 0 10px;
+}
+
+.references {
+    border-top	    :	1px dotted #2d2d2d;
+    padding         :   10px 0 0 10px;
+    text-align      :   center;
+}
+
+.leftPanelDiv {
+    border-bottom	:	1px dotted #2d2d2d;
+    padding         :   0 0 10px 0;
+}
+
+.leftPanelDivLast {
+    padding         :   0 0 10px 0;
+}
+.experienceDate {
+    margin			:	-12px 0 0 0; 
+}
