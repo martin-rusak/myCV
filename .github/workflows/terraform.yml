@@ -2,6 +2,7 @@ name: GCP Terraform
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   terraform:
