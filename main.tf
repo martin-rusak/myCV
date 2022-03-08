@@ -22,7 +22,7 @@ terraform {
 # GCP Provider
 # ===================================================================
 provider "google" {
-  credentials = file("${path.module}/CredFiles/mycv-svc-creds.json")
+  # credentials = file("${path.module}/CredFiles/mycv-svc-creds.json")
   project     = var.GCPproject
   region      = var.GCPregion
   zone        = var.GCPzone
