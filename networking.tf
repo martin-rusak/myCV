@@ -7,7 +7,7 @@ resource "google_compute_global_address" "myCV" {
   name = "website-lb-ip"
 }
 
-# Set the managed DNS zone
+# Get the managed DNS zone
 data "google_dns_managed_zone" "gcp_myCV" {
   name = "martinrusak"
 }

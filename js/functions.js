@@ -13,6 +13,6 @@ $(function(){
 	var dot = / dot /g;
 	var addr = $(spt).text().replace(at,"@").replace(dot,".");
 	$(spt).after('<a href="mailto:'+addr+'" title="Send me an email">'+ addr +'</a>')
-	.hover(function(){window.status="Send an Email!";}, function(){window.status="";});
+	.hover(function(){window.status="Send me an Email!";}, function(){window.status="";});
 	$(spt).remove();
 });

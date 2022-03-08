@@ -59,7 +59,7 @@ resource "google_storage_bucket_iam_policy" "policy" {
 # ===================================================================
 # Web Site Content
 # ===================================================================
-# Loop through all files
+# Loop through all files and upload them to the bucket
 resource "google_storage_bucket_object" "myFiles" {
   count        = length(var.files)
   name         = element(var.files, count.index)

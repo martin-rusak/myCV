@@ -17,6 +17,7 @@ variable "GCPzone" {
   default = "northamerica-northeast2-a"
 }
 
+# myCV files to be uploaded
 variable "files" {
   description = "A list of all folders in main bucket. Use the format [mean folder]/[sub folder]/, with the different folders separated with a comma."
 
@@ -35,6 +36,8 @@ variable "files" {
     "images/tabler-icon-map-pin.png"
   ]
 }
+
+# myCV files content types
 variable "file_types" {
   description = "A list of all file types"
 
