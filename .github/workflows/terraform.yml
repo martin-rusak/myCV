@@ -8,6 +8,7 @@ jobs:
   terraform:
     name: "Terraform"
     runs-on: ubuntu-latest
+    # GCP Token
     env:
       GOOGLE_CREDENTIALS: ${{ secrets.GCP_ACCESS_TOKEN }} 
     steps:
@@ -16,6 +17,7 @@ jobs:
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
+        # Terraform Cloud
         with:
           terraform_version: 1.1.7
           cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
